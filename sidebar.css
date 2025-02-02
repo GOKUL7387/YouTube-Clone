@@ -1,0 +1,39 @@
+/*----------For Navbar(Sidebar)----------*/
+.sidebar
+{
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    background-color: white;
+    z-index: 200;
+    
+}
+.sidebar-icons 
+{
+    height: 96.3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+.sidebar-icons:hover
+{
+    background-color: rgb(226, 224, 224);
+}
+.sidebar-icons img
+{
+    width: 40px;
+    margin-bottom: 10px;
+
+}
+
+.subscription
+{
+    width: 55px;
+}
